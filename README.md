@@ -59,6 +59,9 @@ If you want to install the module in your system instead, run:
 Run the `test.py` python script (using the same interpreter if you specified one).
 
 Alternatively tun a python session in the project root:
+```{shell}
+$ python
+```
 ```{python}
 >>> import lib_example
 >>> import numpy as np
