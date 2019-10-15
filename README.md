@@ -1,6 +1,6 @@
 # Custom C++ library with Pybind11 example
 
-This is a very simple example of building a python module to wrap a custom C++ library which uses the STL vector and templates class/function using PyBind11.
+This is a **minimalist working example** of building a python module to wrap a custom C++ library which uses the **STL** (**vector**) and **templates** class/function using PyBind11.
 
 Feel free to fork this project to start a new one or add any of the files to your project.
 
@@ -57,3 +57,11 @@ If you want to install the module in your system instead, run:
 ## Test
 
 Run the `test.py` python script (using the same interpreter if you specified one)
+
+```{python}
+>>> import lib_example
+>>> import numpy as np
+>>> v = np.arange(10)
+>>> print(lib_example.sum_vector(v))
+45
+```
