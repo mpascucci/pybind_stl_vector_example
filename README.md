@@ -1,6 +1,6 @@
 # Wrap a C++ library using Pybind11
 
-This is a **minimalist working example** of building a python module to wrap a custom C++ library which uses the **STL** (**vector**) and **templates** class/function using PyBind11.
+This is a **minimalist working example** of building a python module to wrap a custom C++ library which uses the **STL** (**vector**) and **template** classes/functions using PyBind11.
 
 Feel free to fork this project to start a new one or add any of the files to your project.
 
