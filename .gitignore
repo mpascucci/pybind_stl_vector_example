@@ -1,0 +1,5 @@
+build/
+*.so
+lib_*
+.vscode/
+.DS*
