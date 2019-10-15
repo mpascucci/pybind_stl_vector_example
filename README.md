@@ -41,11 +41,18 @@ If you want to compile the python module for a particular python interpter insta
 ## Build
 
 This project is based on this [Pybind-Cmake example](https://github.com/pybind/cmake_example).
+
+Go to the source folder and run the command
+
 ```$ pip install -e .```
-This will create a `.so` importable python module in the project folder.
+
+This will compile and generate a `.so` importable python module in the project folder.
+
+
+If you want to install the module in your system instead, run:
 
 ```$ pip install .```
-This will compile and install the module in your system.
+
 
 ## Test
 
