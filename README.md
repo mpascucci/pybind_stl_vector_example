@@ -21,9 +21,14 @@ Feel free to fork this project to start a new one or add any of the files to you
 
 ### explication
 
-In order to build your python module you need the `pybind11` folder (from the PyBind github directly)
+In order to build your python module you need the `pybind11` folder (from the PyBind github directly). Pybind is included here as a git submodule, therefore you have 2 options for cloning this repo (and get pybind11):
 
-Together with the following files:
+1. use directly: `git clone --recursive https://github.com/mpascucci/pybind_stl_vector_example.git` the first time you clone this repo.
+
+2. clone normally and then run `git submodule init` and `git submodule update` to get pybind11.
+
+
+Next, you have to do is edit the following files for your project's needs.
 
 - `CMakeLists.txt`
 
@@ -31,7 +36,6 @@ Together with the following files:
 
 - `src/pybind_def.cpp`
 
-which you must edit to adapt to your project.
 
 ## Specify the Python Interpreter
 
